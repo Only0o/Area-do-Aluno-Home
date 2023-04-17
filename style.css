@@ -1,0 +1,123 @@
+body {
+  box-sizing: border-box;
+  background: url("https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-linho-cinza-n08255-970824.jpg?v=1643338111");
+}
+
+#tudo {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  width: 98vw;
+}
+
+#side-bar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 100%;
+  width: 15vw;
+  gap: 20px;
+  background-color: #333333;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid black;
+}
+
+#icons {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 35px;
+  height: 15vh;
+  border-bottom: 1px solid black;
+}
+.icones {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  justify-content: center;
+  border: 1px solid black;
+  gap: 10px;
+}
+
+#corpo-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.buti {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+#ubc {
+  width: 80%;
+}
+
+.bonecos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.icones#va {
+  background-color: #636ea1;
+}
+
+.icones#fi {
+  background-color: #e6ba4c;
+}
+
+.icones#pm {
+  background-color: #0085ff;
+}
+
+.icones#caa {
+  background-color: #49d48f;
+}
+
+.icones#rematri {
+  background-color: #53c6ea;
+}
+
+.icones#AC {
+  background-color: #f683cc;
+}
+
+.icones#Agenda {
+  background-color: #b964d7;
+}
+
+.icones#ED {
+  background-color: #003b76;
+}
+
+#caa_img {
+  width: 80%;
+  margin-left: 5px;
+}
+
+#estela_img {
+  width: 80%;
+  margin-left: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+}
