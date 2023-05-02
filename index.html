@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Area do Aluno</title>
+    <link rel="stylesheet" href="home_style.css" />
+    <link rel="stylesheet" href="home_style2.css" />
     <script
       src="https://pro.fontawesome.com/releases/v5.13.0/js/all.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./home_index.js"></script>
   </head>
   <body>
     <div id="tudo">
       <div id="side-bar">
-        <img src="./UBC.svg" alt="Logo braz cubaz" id="ubc" />
+        <img src="portal.css/imagens/UBC.svg" alt="Logo braz cubaz" id="ubc" />
 
         <button class="buti"><i class="fa fa-home"></i> Home</button>
         <button class="buti">
@@ -22,7 +24,7 @@
         </button>
         <button class="buti"><i class="fas fa-book"></i>Meus Cursos</button>
         <button class="buti">
-          <i class="fas fa-user-graduate"></i>Vida Acedemica
+          <i class="fas fa-user-graduate"></i>Vida Academica
         </button>
         <button class="buti"><i class="fab fa-bitcoin"></i>Financeiro</button>
         <button class="buti">
@@ -53,70 +55,135 @@
         <div id="icons">
           <div>
             <div class="icones" id="va">
-              <div class="bonecos"><img src="icons/vida_academica.png" alt=""></div>
+              <div class="bonecos"><img src="portal.css/icones/vida_academica.png" alt=""></div>
             </div>
             <div class="text"><h4>Vida Academica</h4></div>
           </div>
 
           <div>
             <div class="icones" id="fi">
-              <div class="bonecos"><img src="icons/finaceiro.png" alt=""></div>
+              <div class="bonecos"><img src="portal.css/icones/finaceiro.png" alt=""></div>
             </div>
             <div class="text"><h4>Financeiro</h4></div>
           </div>
 
           <div>
             <div class="icones" id="pm">
-              <div class="bonecos"><img src="icons/pagar_mesalidade_2.svg" alt=""></div>
+              <div class="bonecos"><img src="portal.css/icones/pagar_mensalidade.png" alt=""></div>
             </div>
             <div class="text"><h4>Pagar Mensalidade</h4></div>
           </div>
 
           <div>
             <div class="icones" id="caa">
-              <div class="bonecos" id="caa_img"><img src="icons/caa_online_2.svg" alt=""></div>
+              <div class="bonecos" id="caa_img"><img src="portal.css/icones/caa_online_2.svg" alt=""></div>
             </div>
             <div class="text"><h4>CAA Online</h4></div>
           </div>
 
           <div>
             <div class="icones" id="rematri">
-              <div class="bonecos" ><img src="icons/rematricula.png" alt=""></div>
+              <div class="bonecos" ><img src="portal.css/icones/rematricula.png" alt=""></div>
             </div>
             <div class="text"><h4>Rematricula</h4></div>
           </div>
 
           <div>
             <div class="icones" id="AC">
-              <div class="bonecos"><img src="icons/atividade_complementar.png" alt=""></i></div>
+              <div class="bonecos" onclick="area()"><img src="portal.css/icones/atividade_complementar.png" alt=""
+                ></i></div>
             </div>
             <div class="text"><h4>Atividade Complementar</h4></div>
           </div>
 
           <div>
             <div class="icones" id="Agenda">
-              <div class="bonecos"><img src="icons/agentamento_CAA.png" alt=""></i></div>
+              <div class="bonecos"><img src="portal.css/icones/agentamento_CAA.png" alt=""></i></div>
             </div>
             <div class="text"><h4>Agendamento CAA</h4></div>
           </div>
 
           <div>
             <div class="icones" id="ED">
-              <div class="bonecos"><img src="icons/emissao_de_documentos.png" alt=""></i></div>
+              <div class="bonecos"><img src="portal.css/icones/emissao_de_documentos.png" alt=""></i></div>
             </div>
             <div class="text"><h4>Emissão de Documentos</h4></div>
           </div>
 
           <div>
             <div class="icones" id="estela">
-              <div class="bonecos" id="estela_img"><img src="icons/cruzeiro.png" alt=""></i></div>
+              <div class="bonecos" id="estela_img"><img src="portal.css/icones/cruzeiro.png" alt=""></i></div>
             </div>
             <div class="text"><h4>Estela</h4></div>
           </div>
         </div>
-      </div>  
 
-      <div></div>
+        <div id="main_formulario">
+
+            <form class="formulario">
+
+                <div>
+
+                    <p>Tipo de Comprovante</p>
+                    <select class="input" name="" id="">
+                        <option >
+                            
+                        </option>
+                        <option >
+                            
+                            Atividades desenvolvidas na área do curso, atuando na realização de Consultorias dos Cursos à comuni...
+                            
+                        </option>
+                        <option >
+                            
+                            
+                            Curso de Competências Básicas para o Ensino Superior: Nivelamento em Língua Portuguesa e/ ou Matemát...
+          
+                            
+                        </option>
+                        <option >
+                            
+                            Cursos presenciais ou online com c/h de 10 a 14h - certificados pelas Instituições proponentes ou pelo setor competente na IES.
+
+                        </option>
+                        <option >
+                            
+                            Cursos presenciais ou online com c/h de 15 a 20h - certificados pelas Instituições proponentes ou pelo setor competente na IES.                            
+                        
+                        </option>
+                        <option >
+                            
+                            Cursos presenciais ou online com c/h de 21 a 30h - certificados pelas Instituições proponentes ou pelo setor competente na IES.
+
+                        </option>
+                    </select>
+                        
+                    <p>Carga Horária do Evento</p>
+                    <input class="input" type="number" name="carga_horaria" id="formulario_carga_horaria">
+
+                    <P>Nome do Evento</P>
+                    <input class="input" type="text" nome="comprovante" id="formulario_nome">
+        
+                    <P>Data do Evento</P>
+                    <input class="input" type="date" name="data" id="formulario_data">
+        
+                    <p>Descrição (Opcional)</p>
+                    <input class="input" type="text" nome="descrisao" id="formulario_descrisao">
+                
+                </div>
+    
+            </form>
+    
+            <div class="final">
+
+                <button id="enviar"><p>Anexar Comprovante</p></button>
+                
+                <p>Permitido o envio de arquivos do tipo PNG, JPG, JPEG, GIF e PDF com tamanho máximo de 1MB</p>
+    
+              </div>
+
+          </div>
+      </div>  
     </div>
   </body>
 </html>
