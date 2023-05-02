@@ -1,13 +1,15 @@
 body {
   box-sizing: border-box;
+  overflow: hidden;
   background: url("https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-linho-cinza-n08255-970824.jpg?v=1643338111");
 }
 
 #tudo {
   display: flex;
   flex-direction: row;
-  height: 95vh;
+  height: 100vh;
   width: 98vw;
+  overflow: hidden;
 }
 
 #side-bar {
@@ -34,7 +36,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   gap: 35px;
   height: 15vh;
   border-bottom: 1px solid black;
@@ -45,7 +47,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  justify-content: center;
+  justify-content: space-around;
   border: 1px solid black;
   gap: 10px;
 }
@@ -54,6 +56,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100%
 }
 
 .buti {
@@ -116,8 +119,45 @@ body {
 }
 
 #estela_img {
+
   width: 80%;
   margin-left: 5px;
   border-radius: 50%;
   overflow: hidden;
+
+}
+
+#main_formulario{
+
+  display: none;
+  flex-direction: column;
+  margin: 1em 3em;
+  height: 100%;
+  
+}
+
+#formulario_descrisao{
+  display: flex;
+  height: 5em;
+  width: 50em;
+  
+}
+
+.final{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+#enviar{
+  background-color: #4095ea;
+}
+
+#formulario_nome{
+  width: 50em;
+  
 }
