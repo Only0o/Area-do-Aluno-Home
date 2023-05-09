@@ -1,14 +1,17 @@
 body {
+  margin: 0px;
+  padding: 0%;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
+ 
   background: url("https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-linho-cinza-n08255-970824.jpg?v=1643338111");
 }
 
 #tudo {
   display: flex;
   flex-direction: row;
-  height: 100vh;
-  width: 98vw;
+  height: 135vh;
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -16,10 +19,12 @@ body {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-  height: 100%;
-  width: 15vw;
-  gap: 20px;
+  height: 135vh;
+  width: 20vw;
   background-color: #333333;
+  font-family: sans-serif;
+  border: solid 2px black;
+  padding:5px;
 }
 
 #header {
@@ -27,7 +32,9 @@ body {
   flex-direction: row;
   justify-content: center;
   gap: 20px;
-  border: 1px solid black;
+  
+  width: 100%;
+  background-color: #ffffff;
 }
 
 #icons {
@@ -35,21 +42,25 @@ body {
   margin: 5px;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 98%;
   justify-content: space-around;
-  gap: 35px;
-  height: 15vh;
+  text-align: center;
+  gap: 5px;
+  height: 20vh;
   border-bottom: 1px solid black;
+  background-color: #c4cfdb;
 }
+
 .icones {
   display: flex;
   flex-direction: column;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   justify-content: space-around;
+  align-items: center;
   border: 1px solid black;
-  gap: 10px;
+ 
 }
 
 #corpo-header {
@@ -64,6 +75,10 @@ body {
   border: none;
   color: #fff;
   font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  font-size: 16px;
 }
 
 #ubc {
@@ -73,12 +88,24 @@ body {
 .bonecos {
   display: flex;
   justify-content: center;
-  text-align: center;
+  
+  width: 20px;
+  height: 20px;
 }
 
 .text {
   display: flex;
   justify-content: center;
+  font-size: 13px;
+}
+
+.icones_tudo{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .icones#va {
@@ -119,21 +146,22 @@ body {
 }
 
 #estela_img {
-
-  width: 80%;
-  margin-left: 5px;
+  height: 70px;
+  width: auto;
   border-radius: 50%;
   overflow: hidden;
 
 }
 
 #main_formulario{
-
+  padding: 15px;
   display: none;
   flex-direction: column;
   margin: 1em 3em;
-  height: 100%;
-  
+  height: 37rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 8px 5px;
 }
 
 #formulario_descrisao{
@@ -155,9 +183,38 @@ body {
 
 #enviar{
   background-color: #4095ea;
+  border-radius: 5px;
+  visibility: hidden;
+  border: black solid 1px;
+  border-radius: 5px;
+  background-color: #3c8dbc;
+  color: #367fa9;
 }
 
 #formulario_nome{
   width: 50em;
   
+}
+
+.side_bar_texto{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  gap: 6px;
+}
+
+label{
+  border: black solid 1px;
+  border-radius: 5px;
+  background-color: #3c8dbc;
+  color:#fff;
+  width: 12em;
+  height: 2em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
